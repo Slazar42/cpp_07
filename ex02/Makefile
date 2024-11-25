@@ -1,10 +1,10 @@
-NAME = Convert
-SRC = main.cpp ScalarConverter.cpp
+NAME = Array
+SRC = main.cpp 
 RM = rm -f
 CC = c++
 FLAG = -Wall -Wextra -Werror -std=c++98
 OBJ = $(SRC:.cpp=.o)
-HEADER = ScalarConverter.hpp
+HEADER = Array.hpp
 
 all: $(NAME)
 
